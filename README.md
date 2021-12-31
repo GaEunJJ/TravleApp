@@ -24,3 +24,6 @@ Travel Application
 3. 여행자 게시판
  >+ Firebase에 회원가입/ 게시물 저장
  >+ 로그인 이후 게시물 작성(글, 사진) 가능 
+
+#
+![mainPage](https://user-images.githubusercontent.com/73327256/147826611-04c7b531-2ca7-49cc-9b52-2eb842f17864.jpg)
