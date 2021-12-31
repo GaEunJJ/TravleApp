@@ -52,11 +52,11 @@ Travel Application
    
 <img src="https://user-images.githubusercontent.com/73327256/147827648-5af7e448-7722-4e1a-9b9c-549f0ef97001.jpg"  width="400" height="650">
 
-**☞ 로그인**   
+**☞ (게시판) 로그인**   
    
 <img src="https://user-images.githubusercontent.com/73327256/147827677-dbe65b4c-6593-4481-87e7-698784b35450.jpg"  width="400" height="650">
 
-**☞ 랜드마크 설명**   
+**☞ (게시판) 회원가입**   
    
 <img src="https://user-images.githubusercontent.com/73327256/147827704-4f7b5d22-447e-4c42-9c5d-32c61e61e6d9.jpg"  width="400" height="650">
 
