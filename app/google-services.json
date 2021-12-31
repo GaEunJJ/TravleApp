@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "11722021514",
+    "project_id": "travelproject-ca1fd",
+    "storage_bucket": "travelproject-ca1fd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:11722021514:android:d229f68ede425190d76b73",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.classification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "11722021514-jv2opdral0iv8cs4cds6cvi3k2mbve00.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.lite.examples.classification",
+            "certificate_hash": "2fe8661685119c04912ae0dce500ef980250fa74"
+          }
+        },
+        {
+          "client_id": "11722021514-9li4l61mn8nuvahugoa34q8efb13fjgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdiyghIRQdAj3JohZkF5QjNn89oaTdIAQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "11722021514-9li4l61mn8nuvahugoa34q8efb13fjgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

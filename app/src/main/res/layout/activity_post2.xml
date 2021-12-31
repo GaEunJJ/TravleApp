@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Post2Activity"
+    android:background="@drawable/gradient_5">
+
+
+
+<TextView
+        android:id="@+id/post2_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/black"
+        android:textSize="26dp"
+        android:textStyle="bold"
+        tools:text="Title" />
+
+    <TextView
+        android:id="@+id/post2_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:layout_gravity="end"
+        android:layout_marginEnd="20dp"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="Title"/>
+
+    <TextView
+        android:id="@+id/post2_contents"
+        android:layout_width="560dp"
+        android:layout_height="360dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:textColor="@android:color/holo_green_dark"
+        android:textSize="22dp"
+        tools:text="Title" />
+
+    <ImageView
+        android:id="@+id/postimg2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        app:srcCompat="@drawable/whiteimage" />
+
+</LinearLayout>
