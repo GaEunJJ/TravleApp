@@ -26,4 +26,4 @@ Travel Application
  >+ 로그인 이후 게시물 작성(글, 사진) 가능 
 
 #
-![mainPage](https://user-images.githubusercontent.com/73327256/147826611-04c7b531-2ca7-49cc-9b52-2eb842f17864.jpg)
+<img src="https://user-images.githubusercontent.com/73327256/147826611-04c7b531-2ca7-49cc-9b52-2eb842f17864.jpg"  width="700" height="370">
