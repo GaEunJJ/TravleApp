@@ -28,29 +28,36 @@ Travel Application
 #
 
 **☞ 메인화면**   
-
+   
 <img src="https://user-images.githubusercontent.com/73327256/147826611-04c7b531-2ca7-49cc-9b52-2eb842f17864.jpg"  width="400" height="650">
    
    
-**☞ 랜드마크 카메라 인식**
+**☞ 랜드마크 카메라 인식**   
+   
 <img src="https://user-images.githubusercontent.com/73327256/147827529-7d2f6c05-8e03-41ea-b1a0-758b66fc5ce3.jpg"  width="400" height="650">
 
-**☞ 랜드마크 설명**
+**☞ 랜드마크 설명**   
+   
 <img src="https://user-images.githubusercontent.com/73327256/147827555-6cac5c91-488c-4123-bdbc-86a2537f812e.jpg"  width="400" height="650">
 
-**☞ 화폐 설정**
+**☞ 화폐 설정**   
+   
 <img src="https://user-images.githubusercontent.com/73327256/147827587-d3e6d369-525c-44c5-8870-2818973a9230.jpg"  width="400" height="650">
 
-**☞ 가계부 항목 작성**
+**☞ 가계부 항목 작성**   
+   
 <img src="https://user-images.githubusercontent.com/73327256/147827610-9692b46f-dcb0-4db0-bb61-f08bfdfed2d2.jpg"  width="400" height="650">
 
-**☞ 게시판 화면**
+**☞ 게시판 화면**   
+   
 <img src="https://user-images.githubusercontent.com/73327256/147827648-5af7e448-7722-4e1a-9b9c-549f0ef97001.jpg"  width="400" height="650">
 
-**☞ 로그인**
+**☞ 로그인**   
+   
 <img src="https://user-images.githubusercontent.com/73327256/147827677-dbe65b4c-6593-4481-87e7-698784b35450.jpg"  width="400" height="650">
 
-**☞ 랜드마크 설명**
+**☞ 랜드마크 설명**   
+   
 <img src="https://user-images.githubusercontent.com/73327256/147827704-4f7b5d22-447e-4c42-9c5d-32c61e61e6d9.jpg"  width="400" height="650">
 
    
