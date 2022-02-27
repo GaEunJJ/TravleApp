@@ -354,24 +354,6 @@ public abstract class CameraActivity extends AppCompatActivity
     mp1 = MediaPlayer.create(this, R.raw.ten);
     mp2 = MediaPlayer.create(this, R.raw.five);
 
- /*   mp.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-      @Override
-      public void onCompletion(MediaPlayer mp) {
-        mp.release();
-      }
-    });
-    mp1.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-      @Override
-      public void onCompletion(MediaPlayer mp) {
-        mp.release();
-      }
-    });
-    mp2.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-      @Override
-      public void onCompletion(MediaPlayer mp) {
-        mp.release();
-      }
-    });*/
   }
 
   @Override
@@ -457,7 +439,6 @@ public abstract class CameraActivity extends AppCompatActivity
     if (deviceLevel == CameraCharacteristics.INFO_SUPPORTED_HARDWARE_LEVEL_LEGACY) {
       return requiredLevel == deviceLevel;
     }
-    // deviceLevel is not LEGACY, can use numerical sort
     return requiredLevel <= deviceLevel;
   }
 
@@ -467,7 +448,6 @@ public abstract class CameraActivity extends AppCompatActivity
       for (final String cameraId : manager.getCameraIdList()) {
         final CameraCharacteristics characteristics = manager.getCameraCharacteristics(cameraId);
 
-        // We don't use a front facing camera in this sample.
         final Integer facing = characteristics.get(CameraCharacteristics.LENS_FACING);
         if (facing != null && facing == CameraCharacteristics.LENS_FACING_FRONT) {
           continue;
@@ -479,10 +459,6 @@ public abstract class CameraActivity extends AppCompatActivity
         if (map == null) {
           continue;
         }
-
-        // Fallback to camera1 API for internal cameras that don't have full support.
-        // This should help with legacy situations where using the camera2 API causes
-        // distorted or otherwise broken previews.
         useCamera2API =
             (facing == CameraCharacteristics.LENS_FACING_EXTERNAL)
                 || isHardwareLevelSupported(
@@ -527,8 +503,6 @@ public abstract class CameraActivity extends AppCompatActivity
   }
 
   protected void fillBytes(final Plane[] planes, final byte[][] yuvBytes) {
-    // Because of the variable row stride it's not possible to know in
-    // advance the actual necessary dimensions of the yuv planes.
     for (int i = 0; i < planes.length; ++i) {
       final ByteBuffer buffer = planes[i].getBuffer();
       if (yuvBytes[i] == null) {
@@ -768,6 +742,5 @@ boolean hun = false;
 
   @Override
   public void onNothingSelected(AdapterView<?> parent) {
-    // Do nothing.
   }
 }
